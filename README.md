@@ -21,11 +21,11 @@ The model's predictions are interpreted through EigenCAM heatmaps:
 
 **Pneumonia Case** — Strong localized activation in consolidation regions:
 
-![Pneumonia Grad-CAM](grads_cam/pneumonia_gradcam.png)
+![Pneumonia Grad-CAM](https://github.com/S-am-ir/pneumonia-detection/blob/main/grads_cam/penumonia_sample.png)
 
 **Normal Case** — Diffused, minimal activation across healthy lungs:
 
-![Normal Grad-CAM](grads_cam/normal_gradcam.png)
+![Normal Grad-CAM](https://github.com/S-am-ir/pneumonia-detection/blob/main/grads_cam/normal_sample.png)
 
 The model correctly identifies pneumonia by focusing on affected lung areas while ignoring healthy tissue.
 
